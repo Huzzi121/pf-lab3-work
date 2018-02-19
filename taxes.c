@@ -1,3 +1,8 @@
+/**
+ * This program computes income taxes based on adjusted
+ * gross income and a child tax credit.
+ *
+ */
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -16,7 +21,7 @@ int main(int argc, char **argv) {
   getchar(); //remove the endline character
   c = getchar();
 
-  //compute the tax, child credit, and total tax:
+  //TODO: compute the tax, child credit, and total tax:
 
 
   printf("AGI:          $%10.2f\n", agi);

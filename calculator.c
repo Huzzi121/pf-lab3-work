@@ -1,3 +1,9 @@
+/**
+ * This programs provides basic calculator functionality
+ * allowing a user to enter two operands and to compute
+ * various calculated values.
+ *
+ */
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
@@ -7,10 +13,10 @@ int main(int argc, char **argv) {
   double a, b;
   int choice;
 
-  printf("Enter operand a>");
+  printf("Enter operand a: ");
   scanf("%lf", &a);
 
-  printf("Enter operand b>");
+  printf("Enter operand b: ");
   scanf("%lf", &b);
 
   printf("Enter operation:\n");
