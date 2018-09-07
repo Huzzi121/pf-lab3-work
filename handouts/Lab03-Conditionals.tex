@@ -271,16 +271,18 @@ If the AGI is over- & But not over- & The tax is: & Of the amount over- \\
 
 We have provided a partially completed program that reads in a user's 
 Adjusted Gross Income (AGI) and prompts whether or not they have 
-any children.  You need to complete the program by writing code to do 
-the following:
-\begin{itemize}
-  \item If the user indicates that they do have children, prompt them to 
-  	enter how many and compute the total tax credit
-  \item Compute the user's tax based on the user's AGI and the total 
-	tax after the child tax credit
-\end{itemize}
+any children.  If they do it prompts them for how many.  Complete
+the program by computing the user's total tax based on the user's AGI 
+the number of children they have.
 
 Some example input/output results can be found in Table \ref{table:examples}.
+For example, if the user has an adjusted gross income of \$150,000 and has
+4 children, then their tax would be calculated as follows.
+\begin{itemize}
+  \item Their AGI falls in the 4th tax bracket and so would be
+    $$\$27,087.50 + 28\% \times (\$150,000 - \$139,350) = \$30,069.50$$
+  \item With 4 children, they have a \$4,000 tax credit giving a new total of \$26,069.50
+\end{itemize}
 
 \begin{table}
 \centering
