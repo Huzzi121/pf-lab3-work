@@ -17,7 +17,9 @@ int main(int argc, char **argv) {
   int numPassed = 0;
   int numFailed = 0;
 
-  //hard-coded ad-hoc test cases
+  //Hard-coded ad-hoc test cases
+  //Do not change these, add your own test cases
+  //below.  All test cases should pass.
 
   year = 2000;
   printf("Test Case 1: year = %d: ", year);
@@ -61,5 +63,8 @@ int main(int argc, char **argv) {
 }
 
 int isLeapYear(int year) {
-  //TODO: write your logic here
+  //TODO: Write your logic here
+  //      The year is stored in the variable year
+  //      Your function should return true (1) if it represents a leap year
+  //      and false (0) if it does not.
 }
