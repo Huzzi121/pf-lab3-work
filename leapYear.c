@@ -21,7 +21,7 @@ int main(int argc, char **argv) {
   //Do not change these, add your own test cases
   //below.  All test cases should pass.
 
-  year = 2000;
+  year = 2010;
   printf("Test Case 1: year = %d: ", year);
   if(!isLeapYear(year)) {
     printf("FAILED!\n");
