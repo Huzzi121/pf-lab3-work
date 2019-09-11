@@ -10,7 +10,7 @@
 
 int main(int argc, char **argv) {
 
-  double a, b;
+  double a, b, result;
   int choice;
 
   printf("Enter operand a: ");
@@ -29,8 +29,27 @@ int main(int argc, char **argv) {
   printf("(7) log_a(b)\n");
   scanf("%d", &choice);
 
-  //TODO: process the results here
-
+  switch(choice) {
+    case 1:
+      printf("%f", a + b);
+      break;
+    case 2:
+      result = a - b;
+      printf("%f", result);
+      break;
+    case 3:
+      //TODO: handle this case    
+    case 4:
+      //TODO: handle this case
+    case 5:
+      //TODO: handle this case
+    case 6:
+      //TODO: handle this case
+    case 7:
+      //TODO: handle this case
+    default:
+      printf("Please input a valid operator next time");
+  }
 
   return 0;
 }
