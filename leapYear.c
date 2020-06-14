@@ -1,9 +1,10 @@
 /**
- * This program determines if various years are leap years or not.
+ * This program determines if various years are leap 
+ * years or not.
  *
  */
-#include<stdlib.h>
-#include<stdio.h>
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * Returns true (1) if the given year is a leap year,

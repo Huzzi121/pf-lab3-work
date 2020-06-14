@@ -1,12 +1,15 @@
 /**
+ * Author: 
+ * Date: 
+ * 
  * This programs provides basic calculator functionality
  * allowing a user to enter two operands and to compute
  * various calculated values.
  *
  */
-#include<stdio.h>
-#include<stdlib.h>
-#include<math.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
 
 int main(int argc, char **argv) {
 
