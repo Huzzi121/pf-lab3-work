@@ -1,7 +1,7 @@
 /**
- * Author: 
- * Date: 
- * 
+ * Author:
+ * Date:
+ *
  * This programs provides basic calculator functionality
  * allowing a user to enter two operands and to compute
  * various calculated values.
@@ -28,30 +28,24 @@ int main(int argc, char **argv) {
   printf("(3) Multiplication\n");
   printf("(4) Division\n");
   printf("(5) Minimum\n");
-  printf("(6) Power\n");
-  printf("(7) log_a(b)\n");
+  printf("(6) log_a(b)\n");
   scanf("%d", &choice);
 
-  switch(choice) {
-    case 1:
-      printf("%f", a + b);
-      break;
-    case 2:
-      result = a - b;
-      printf("%f", result);
-      break;
-    case 3:
-      //TODO: handle this case    
-    case 4:
-      //TODO: handle this case
-    case 5:
-      //TODO: handle this case
-    case 6:
-      //TODO: handle this case
-    case 7:
-      //TODO: handle this case
-    default:
-      printf("Please input a valid operator next time");
+  if(choice == 1) {
+    printf("%f", a + b);
+  } else if(choice == 2) {
+    result = a - b;
+    printf("%f", result);
+  } else if(choice == 3) {
+    //TODO: handle this case (multiplication)
+  } else if(choice == 4) {
+    //TODO: handle this case (division)
+  } else if(choice == 5) {
+    //TODO: handle this case (minimum)
+  } else if(choice == 6) {
+    //TODO: handle this case (log_a(b))
+  } else {
+    printf("Please input a valid operator next time");
   }
 
   return 0;

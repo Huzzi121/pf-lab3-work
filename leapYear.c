@@ -1,5 +1,5 @@
 /**
- * This program determines if various years are leap 
+ * This program determines if various years are leap
  * years or not.
  *
  */
@@ -52,7 +52,7 @@ int main(int argc, char **argv) {
     numPassed = numPassed + 1;
   }
 
-  //TODO: write at least 3 more of your own test cases
+  //TODO: write at least 3 more of your own test cases here
 
   printf("\n\n");
   printf("Summary:\n");
