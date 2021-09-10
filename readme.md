@@ -148,9 +148,9 @@ three logical operators that we'll focus on are as follows.
 
 | Operator | C Syntax | Example                  |
 |----------|----------|--------------------------|
-| Negation | `!`      | !(x > 0)                 |
+| Negation | `!`      | `!(x > 0)`               |
 | And      | `&&`     | `(x != 0) && (y < 10)`   |
-| Or       | `||`     | `(x < 0) || (x >= 10)` |
+| Or       | `||`     | `(x < 0) || (x >= 10)`   |
 
 -   Negation: this is a unary operator (an operator that only acts on
     *one* operand) that flips the truth value of the
