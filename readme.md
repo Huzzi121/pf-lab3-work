@@ -1,10 +1,11 @@
 # Computer Science I
 ## Lab 3.0 - Conditionals
+[School of Computing](https://computing.unl.edu)  
+[College of Engineering](https://engineering.unl.edu/)  
+[University of Nebraska-Lincoln](https://unl.edu)  
 
 This lab introduces conditionals control structures using the C programming
 language.
-
-This is a lab used in Computer Science I (CSCE 155E, CSCE 155H) in the [Department of Computer Science & Engineering](https://cse.unl.edu) at the [University of Nebraska-Lincoln](https://unl.edu).
 
 ## Prior to Lab
 
@@ -300,19 +301,11 @@ tests whether or not various years are leap years.
 
     -   `leapYear.c`
 
-    through the webhandin (<https://cse-apps.unl.edu/handin>) using your
-    cse login and password.
+    through the online handin/grader system.  Be sure your program passes
+    all tests to get credit.
 
 2.  Even if you worked with a partner, you *both* should turn in all
     files.
-
-3.  Verify your program by grading yourself through the webgrader
-    (<https://cse.unl.edu/~cse155e/grade/>) using the same credentials.
-
-4.  Recall that both expected output and your program's output will be
-    displayed. The formatting may differ slightly which is fine. As long
-    as your program successfully compiles, runs and outputs the *same
-    values*, it is considered correct.
 
 # Advanced Activities (Optional)
 
