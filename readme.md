@@ -284,11 +284,11 @@ tests whether or not various years are leap years.
     Return true (`1`) if it is, false (`0`) if it is not.
 
 2.  Compile and run your program: we've provided 3 hard-coded test
-    cases. Fix any errors in your program until they all *pass*.
+    cases. Fix any errors in your program until they all ***pass***.
 
 3.  Using the provided code as an example, add at least 3 more test
     cases to your program. Repeat your compile/run/test until they all
-    pass.
+    ***pass***.
 
 # Handin/Grader Instructions
 
