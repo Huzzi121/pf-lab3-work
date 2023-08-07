@@ -52,7 +52,7 @@ int main(int argc, char **argv) {
     numPassed = numPassed + 1;
   }
 
-  //TODO: write at least 3 more of your own
+  //TODO: write *exactly* 3 more of your own
   //      test cases here, they should all pass!
 
   printf("\n\n");

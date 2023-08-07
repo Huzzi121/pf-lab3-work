@@ -243,7 +243,8 @@ the chosen operation. Take care with the following *edge cases*:
 
 -   For division, you should check if the divisor, `b` is zero
     (division by zero is not defined). If it is, an appropriate
-    error message should be output instead of a result.
+    error message should be output instead of a result and
+    **must** include the keyword `ERROR`.
 
 -   For the logarithm operation, you should use the math library's
     `log` function, which is the natural logarithm (base *e*). To
@@ -287,7 +288,7 @@ tests whether or not various years are leap years.
 2.  Compile and run your program: we've provided 3 hard-coded test
     cases. Fix any errors in your program until they all ***pass***.
 
-3.  Using the provided code as an example, add at least 3 more test
+3.  Using the provided code as an example, *exactly* 3 more test
     cases to your program. Repeat your compile/run/test until they all
     ***pass***.
 
