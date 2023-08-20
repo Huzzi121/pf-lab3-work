@@ -5,6 +5,8 @@
  */
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
+#include <stdbool.h>
 
 /**
  * Returns true (1) if the given year is a leap year,
@@ -13,6 +15,11 @@
 int isLeapYear(int year);
 
 int main(int argc, char **argv) {
+
+  bool reportPass = false;
+  if(argc > 1 && strcmp(argv[1], "-reportPass") == 0) {
+    reportPass = true;
+  }
 
   int year;
   int numPassed = 0;
@@ -52,7 +59,7 @@ int main(int argc, char **argv) {
     numPassed = numPassed + 1;
   }
 
-  //TODO: write *exactly* 3 more of your own
+  //TODO: write *at least* 3 more of your own
   //      test cases here, they should all pass!
 
   printf("\n\n");
@@ -61,7 +68,11 @@ int main(int argc, char **argv) {
   printf("Number of test cases failed: %d\n", numFailed);
   printf("Percentage Passed: %.2f%%\n", (double) numPassed / (numPassed + numFailed) * 100.0);
 
-  return 0;
+  if(reportPass) {
+    return numPassed;
+  } else {
+    return numFailed;
+  }
 }
 
 int isLeapYear(int year) {

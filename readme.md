@@ -288,7 +288,7 @@ tests whether or not various years are leap years.
 2.  Compile and run your program: we've provided 3 hard-coded test
     cases. Fix any errors in your program until they all ***pass***.
 
-3.  Using the provided code as an example, *exactly* 3 more test
+3.  Using the provided code as an example, *at least* 3 more test
     cases to your program. Repeat your compile/run/test until they all
     ***pass***.
 
