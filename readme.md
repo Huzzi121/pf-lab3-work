@@ -250,7 +250,7 @@ the chosen operation. Take care with the following *edge cases*:
     `log` function, which is the natural logarithm (base *e*). To
     change to another base, use the formula:
 
-    $$\log_b{(a)} = \frac{\ln{(a)}}{\ln{(b)}}$$
+    $$\log_a{(b)} = \frac{\ln{(b)}}{\ln{(a)}}$$
 
     In addition, you should check that both operands are positive.
     If one or both are not positive, output an appropriate error
