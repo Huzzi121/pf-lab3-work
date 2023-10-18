@@ -37,13 +37,25 @@ int main(int argc, char **argv) {
     result = a - b;
     printf("%f", result);
   } else if(choice == 3) {
-    //TODO: handle this case (multiplication)
+    result=a*b;
+    printf("%f",result);
   } else if(choice == 4) {
-    //TODO: handle this case (division)
+    if(b==0)
+    {
+      printf("Critical ERROR(enter a non zero divisor)");
+    }
+    else{
+      result=a/b;
+      printf("%f", result);
+    }
   } else if(choice == 5) {
-    //TODO: handle this case (minimum)
+    if(a>b)
+    {
+      printf("%lf is less then %lf",b,a);
+    }
   } else if(choice == 6) {
-    //TODO: handle this case (log_a(b))
+    result = log(a)/log(b);
+    printf("%f", result);
   } else {
     printf("Please input a valid operator next time");
   }
